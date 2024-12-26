@@ -38,12 +38,8 @@
   "overrides": [
     {
       "include": ["*.test.*"],
-      "linter": {
-        "rules": {
-          "correctness": {
-            "noUndeclaredVariables": "off"
-          }
-        }
+      "javascript": {
+        "globals": ["expect", "test"]
       }
     }
   ]
